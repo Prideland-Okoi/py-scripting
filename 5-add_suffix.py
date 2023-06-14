@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-
 import os
+# Add suffix to files in folder
 
 for file in os.listdir('.'):
     if file.endswith('.txt'):

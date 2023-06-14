@@ -1,5 +1,8 @@
+#!/usr/bin/python3
 import os
-file =os.path.join('.', 'vivo.txt')
+# Count words in a file
+
+file = os.path.join('.', 'vivo.txt')
 word_counts = {}
 with open(file, 'r') as f:
     text = f.read()
